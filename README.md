@@ -11,10 +11,10 @@ Instead, it specifies the structural transitions through which authority is expr
 
 ## Status
 
-⚠️ Draft Specification — Early Architecture
+⚠️ Architectual Spine Draft — Protocol Definition in Progress
 
-ProLine is an evolving protocol concept intended for exploration, critique, and iteration.
-Nothing in this repository should be considered production-ready.
+ProLine is a protocol specification currently published at the Architectual Spine stage. This draft focuses on defining the authority boundary model before implementation profiles 
+are produced.
 
 ---
 
@@ -38,6 +38,23 @@ However, most architectures lack a neutral protocol layer that clearly defines:
 - how boundary crossing remains interruptible
 
 ProLine explores this missing structural layer.
+
+---
+
+## How To Read This Draft  
+
+This document defines a protocol boundary layer.  
+
+It specifies structrual rules governing when symbolic intent becomes externally effective action. 
+
+Ambiguity in certain areas is intentional and reflects protocol-level neutrality rather than incompleteness. 
+
+Readers are encouraged to evaluate: 
+- authority transition structure 
+- boundary neutrality
+- auditability guarantees
+
+This draft is not an implimentation guide or governance framework. 
 
 ---
 
@@ -75,6 +92,10 @@ The protocol defines state transitions — not implementation details.
 - Protocol remains implementation-neutral
 - Authority endpoints remain accountable within the execution environment
 
+Operator describes structural boundary control within an execution enviornment. 
+It does not imply governance authority or centralized decision power. 
+The Operator concept exists to preserve interruptibility at the execution boundary. 
+
 ---
 
 ## What ProLine Is NOT
@@ -108,6 +129,7 @@ authorized execution.
 
 ProLine proposes a grammar for that boundary.
 
+ProLine aims to function as a protocol layer rather than an application framework or philosphical model. 
 ---
 
 ## Contributing
